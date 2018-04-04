@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <title>Assessment 2</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="controls.css" rel="stylesheet" type="text/css" />
+        <link href="preview.css" rel="stylesheet" type="text/css" />
+    
+    </head>
+
+    <body>
+        
+        <div id="preview">
+            <img id="hair" class="items" src="img/hair1.png" />
+            <img id="eyes" class="items" src="img/eyes1.png" />
+            <img id="nose" class="items" src="img/nose1.png" />
+            <img id="mouth" class="items" src="img/mouth1.png" />
+        </div>
+        
+        <div id="controls">
+            <input type="range" class="rangeInput" id="hairRange" min="0" max="70" value="60"></input>
+            <input type="range" class="rangeInput" id="eyeRange" min="0" max="40" value="20"></input>
+            <input type="range" class="rangeInput" id="noseRange" min="0" max="30" value="20"></input>
+            <input type="range" class="rangeInput" id="mouthRange" min="0" max="35" value="20"></input>
+            <input type="color" id="color"></input>
+            <br>
+            <button id="range">Range</button>
+            <button id="number">Number</button>
+            <button id="random">Random</button>
+            <button id="add">+</button>
+            |
+            <button id="create">Auto Random Create</button>
+            <button id="stop">Stop Auto Create</button>
+        </div>
+        
+        <div id="display">
+            
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="controls.js"></script>
+        <script src="preview.js"></script>
+    
+    </body>
+
+</html>
